@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitha ghor</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+           border: 1px solid black; 
+           padding: 5px 10px;
+           text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+
+                <li><a href="blog.html">Blogh</a></li>
+                <li><a href="pexels-stephan-seeber-1054218.jpg">pic</a></li>
+                <li><a href="blog.css">blogc</a></li>
+                <li><a href="form.html">form</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please full up the form</h2>
+            <form >
+                <label for="name">Your Name:<input type="text" id="name" placeholder="user name"></label>
+                <label for="email">Your Email:<input type="text" name="mail" id="email" placeholder="user email" required></label>
+                <label for="phone">Phone:<input type="number" id="phone" name="Phone"><select id="name"><option value="+880">+880</option><option value="+990">+990</option></select></label>
+                   <fieldset style="height: 100px; width: 200px;">
+                    <legend >pick One pitha</legend>
+                    <label for="chitoy"><input type="radio" id="chitoy" name="pitha">Chitoy</label>
+                    <label for="vapa"><input type="radio" id="vapa" name="pitha">Vapa</label>
+                    <label for="puri"><input type="radio" id="puri" name="pitha">Puri</label>
+                   </fieldset>
+                   <fieldset style="height: 100px; width: 200px;">
+                    <legend>Pick one or more vorta</legend>
+                    <label for="shutki"> <input type="checkbox" id="shutki" name="Shutki">Shutki vorta</label>
+                    <label for="shorisha"> <input type="checkbox" id="shorisha" name="Shorisha">shorisha vorta</label>
+                    <label for="dhone"> <input type="checkbox" id="dhone" name="Dhone">Dhone vorta</label>
+                   </fieldset>
+                   <fieldset  style="height: 100px; width: 100px;">
+                        <legend>Special Instruction</legend>
+                        <textarea name="" id="" cols="30" rows="2"></textarea>
+                   </fieldset>
+                   <input type="reset" value="reset">
+                   <input type="submit" value="submit">
+                </form>
+            </section>
+        </main>
+        <footer>
+            
+        </footer>
+
+                   <h2>Html table</h2>
+
+                   <table>
+                    <caption>employes salary</caption>
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Name</th>
+                            <th>Company</th>
+                            <th>Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Billgates</td>
+                            <td>Founder Microsoft</td>
+                            <td>$1000</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Steve Jobs</td>
+                            <td>Founder Apple</td>
+                            <td>$1200</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Larry Page</td>
+                            <td>Founder Google</td>
+                            <td>$1100</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Mark Zuckeberg </td>
+                            <td>Founder Facebook</td>
+                            <td>$1000</td>
+
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Elone Mask</td>
+                            <td>Founder Tesla</td>
+                            <td>&1700</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr><td colspan="4">Total employes 4</td></tr>
+                    </tfoot>
+                   </table>
+                   
+                   
+
+           
+    <ul>
+        <li>table head= thead</li>
+        <li>table body= tbody</li>
+        <li>table footer= tfoot</li>
+        <li>table row= tr</li>
+        <li>table data= td</li>
+       </ul>
+</body>
+</html>
